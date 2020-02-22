@@ -1,1 +1,5 @@
 #######Vuex########
+
+npm install --save vuex
+
+Using the Centralized State
