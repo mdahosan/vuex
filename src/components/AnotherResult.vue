@@ -7,6 +7,8 @@
 
 <script>
 
+
+
     import { mapGetters } from 'vuex'
 
     export default {
@@ -14,10 +16,12 @@
       // computed: mapGetters([
       //   'doubleCounter', 'stringCounter'
       // ])
-      computed: mapGetters({
-        counter: 'doubleCounter',
-        clicks: 'stringCounter',
-      })
+      computed: {
+        ...mapGetters({
+                     counter: 'doubleCounter',
+                     clicks: 'stringCounter',
+                   })
+      }
       // computed: {
       //   counter(){
       //     return this.$store.state.doubleCounter * 2;
