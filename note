@@ -3,3 +3,7 @@
 npm install --save vuex
 
 Using the Centralized State
+Using Getters
+Mapping Getters to Properties
+
+
